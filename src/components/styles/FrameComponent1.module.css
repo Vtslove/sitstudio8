@@ -1,0 +1,114 @@
+.coingrigWallet,
+.image1 {
+  align-self: stretch;
+  position: relative;
+}
+.image1 {
+  flex: 1;
+  background-color: var(--color-red);
+  cursor: pointer;
+}
+.coingrigWallet {
+  line-height: 30px;
+  font-weight: 600;
+}
+.uiuxPresentationProduct {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 27px;
+}
+.coingrigWalletParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.cardsSection,
+.cardsSectionWrapper,
+.component12 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.component12 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  min-width: 320px;
+}
+.cardsSection,
+.cardsSectionWrapper {
+  margin-top: -14%;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.cardsSection {
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: 24px 22px;
+}
+.cardsSectionWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-51xl) var(--padding-22xl);
+  text-align: left;
+  font-size: var(--subtitle-size);
+  color: var(--shades-0);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 1525px) {
+  .image1 {
+    flex: 1;
+  }
+  .component12 {
+    align-self: stretch;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .cardsSectionWrapper {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .cardsSectionWrapper {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .cardsSectionWrapper {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .coingrigWallet {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .coingrigWallet {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .cardsSectionWrapper {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+  .image1 {
+    flex: 1;
+  }
+  .component12 {
+    align-self: stretch;
+    height: auto;
+  }
+}

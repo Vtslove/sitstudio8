@@ -1,0 +1,437 @@
+.mainContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.uxui {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.item,
+.spanelementorIconListText {
+  display: flex;
+  justify-content: flex-start;
+}
+.spanelementorIconListText {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 19px 0 0;
+}
+.item {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 var(--padding-5xs-5);
+}
+.email,
+.marketing {
+  margin: 0;
+}
+.emailMarketing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.spanelementorIconListText1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.item1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.divelementorWidgetContainer,
+.item1,
+.list {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.list {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs-5);
+}
+.divelementorWidgetContainer {
+  align-self: stretch;
+  height: 254.5px;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.divelementorElement,
+.divelementorElementWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.divelementorElement {
+  width: 497px;
+  background-color: var(--color-gray-100);
+  flex-direction: column;
+  padding: var(--padding-11xl) var(--padding-10xl) var(--padding-11xl)
+    var(--padding-11xl);
+  gap: var(--gap-3xs);
+  max-width: 498px;
+  min-height: 500px;
+}
+.divelementorElementWrapper {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-3xs) 0;
+  min-width: 460px;
+  max-width: 100%;
+}
+.strategy {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.item2,
+.spanelementorIconListText2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.spanelementorIconListText2 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 34.6px 0 0;
+}
+.item2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 var(--padding-5xs-5);
+}
+.identity {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.item3,
+.spanelementorIconListText3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.spanelementorIconListText3 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 29.1px 0 0;
+}
+.item3 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 var(--padding-5xs-5);
+}
+.consultancy {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.spanelementorIconListText4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.item4 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.divelementorWidgetContainer1,
+.item4,
+.list1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.list1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs-5);
+}
+.divelementorWidgetContainer1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-10xl) 0 0;
+  box-sizing: border-box;
+  min-height: 262px;
+  flex-shrink: 0;
+}
+.divelementorElement1,
+.divelementorElementContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.divelementorElement1 {
+  width: 497px;
+  background-color: var(--color-gray-100);
+  flex-direction: column;
+  padding: var(--padding-11xl) var(--padding-10xl) var(--padding-11xl)
+    var(--padding-11xl);
+  gap: var(--gap-3xs);
+  max-width: 498px;
+  min-height: 500px;
+}
+.divelementorElementContainer {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-3xs) 0;
+  min-width: 460px;
+  max-width: 100%;
+}
+.photoVideo,
+.production {
+  margin: 0;
+}
+.photoVideoContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.item5,
+.spanelementorIconListText5 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.spanelementorIconListText5 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.item5 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 var(--padding-5xs-5);
+  box-sizing: border-box;
+}
+.campaign,
+.development {
+  margin: 0;
+}
+.campaignDevelopment {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.spanelementorIconListText6 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.item6 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.divelementorWidgetContainer2,
+.item6,
+.list2 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.list2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs-5);
+}
+.divelementorWidgetContainer2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  min-height: 279px;
+}
+.divelementorElement2 {
+  width: 497px;
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-10xl) var(--padding-11xl)
+    var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 498px;
+  min-height: 500px;
+}
+.divelementorElementFrame,
+.frameParent {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.divelementorElementFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  min-width: 460px;
+}
+.frameParent {
+  gap: 20.1px;
+}
+.developmentWidgets,
+.frameParent,
+.mainInfoParent,
+.servicesResponsive {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.developmentWidgets {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--shades-0);
+  font-family: var(--font-inter);
+}
+.mainInfoParent,
+.servicesResponsive {
+  flex-direction: column;
+  gap: var(--gap-61xl);
+}
+.mainInfoParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.servicesResponsive {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .campaignDevelopment,
+  .consultancy,
+  .emailMarketing,
+  .identity,
+  .photoVideoContainer,
+  .strategy,
+  .uxui {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .mainInfoParent,
+  .servicesResponsive {
+    gap: 40px 80px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .campaignDevelopment,
+  .consultancy,
+  .emailMarketing,
+  .identity,
+  .photoVideoContainer,
+  .strategy,
+  .uxui {
+    font-size: var(--font-size-10xl);
+    line-height: 29px;
+  }
+  .divelementorElement {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .divelementorElementWrapper {
+    min-width: 100%;
+  }
+  .divelementorElement1 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .divelementorElementContainer {
+    min-width: 100%;
+  }
+  .divelementorElement2 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .divelementorElementFrame {
+    min-width: 100%;
+  }
+  .mainInfoParent,
+  .servicesResponsive {
+    gap: 20px 80px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .campaignDevelopment,
+  .consultancy,
+  .emailMarketing,
+  .identity,
+  .photoVideoContainer,
+  .strategy,
+  .uxui {
+    font-size: var(--font-size-10xl);
+    line-height: 29px;
+  }
+}

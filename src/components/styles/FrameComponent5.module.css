@@ -1,0 +1,88 @@
+.sntlCurrencyWallet {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ourTeamMerges,
+.ultimateMissionOf {
+  margin: 0;
+}
+.ourTeamMergesContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: inherit;
+}
+.menuItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: var(--font-size-4xl);
+}
+.mainInfo,
+.mainInfoWrapper,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.navigation {
+  flex: 1;
+  background-color: var(--color-black);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  gap: var(--gap-xl);
+}
+.mainInfo,
+.mainInfoWrapper {
+  justify-content: flex-start;
+}
+.mainInfo {
+  flex: 1;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-xl);
+}
+.mainInfoWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-23xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--shades-0);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .navigation {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .sntlCurrencyWallet {
+    font-size: var(--font-size-21xl);
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sntlCurrencyWallet {
+    font-size: var(--font-size-11xl);
+    line-height: 30px;
+  }
+  .ourTeamMergesContainer {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+}

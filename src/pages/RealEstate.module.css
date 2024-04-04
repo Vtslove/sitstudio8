@@ -1,0 +1,238 @@
+.vanguardReal {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ourTeamMerges,
+.ultimateMissionOf {
+  margin: 0;
+}
+.ourTeamMergesContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: inherit;
+}
+.mainInfo,
+.menuItems,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.menuItems {
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: var(--font-size-4xl);
+}
+.mainInfo,
+.navigation {
+  align-items: center;
+  box-sizing: border-box;
+}
+.navigation {
+  flex: 1;
+  background-color: var(--color-black);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  gap: var(--gap-xl);
+}
+.mainInfo {
+  align-self: stretch;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--shades-0);
+  font-family: var(--font-inter);
+}
+.latestWork {
+  width: 191px;
+  position: relative;
+  line-height: 42px;
+  font-weight: 600;
+  display: none;
+}
+.figureXverseBrandGuidelin {
+  height: 1815px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.cardsSection,
+.component12,
+.gallerySection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.component12 {
+  align-self: stretch;
+  flex: 1;
+  min-width: 320px;
+}
+.cardsSection,
+.gallerySection {
+  height: 1815px;
+}
+.cardsSection {
+  flex: 1;
+  flex-wrap: wrap;
+}
+.gallerySection {
+  align-self: stretch;
+  background-color: var(--color-black);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-23xl) var(--padding-5xl) 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+.aCreative,
+.agencyFueled,
+.basedIn,
+.byCulture,
+.globalNetwork,
+.internetAnd {
+  margin: 0;
+}
+.aCreativeAgencyContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ourTeamMerges1,
+.ultimateMissionOf1 {
+  margin: 0;
+}
+.ourTeamMergesContainer1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: inherit;
+}
+.menuItems1,
+.navigation1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.menuItems1 {
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: var(--font-size-4xl);
+}
+.navigation1 {
+  flex: 1;
+  background-color: var(--color-black);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.mainInfo1,
+.realEstate {
+  display: flex;
+  justify-content: flex-start;
+}
+.mainInfo1 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--shades-0);
+  font-family: var(--font-inter);
+}
+.realEstate {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .navigation {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .gallerySection {
+    padding-top: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .navigation1 {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .vanguardReal {
+    font-size: var(--font-size-21xl);
+    line-height: 40px;
+  }
+  .latestWork {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .gallerySection {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .aCreativeAgencyContainer {
+    font-size: var(--font-size-21xl);
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .vanguardReal {
+    font-size: var(--font-size-11xl);
+    line-height: 30px;
+  }
+  .ourTeamMergesContainer {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .latestWork {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .aCreativeAgencyContainer {
+    font-size: var(--font-size-11xl);
+    line-height: 30px;
+  }
+  .ourTeamMergesContainer1 {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+}

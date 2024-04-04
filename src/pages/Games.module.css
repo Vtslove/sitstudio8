@@ -1,0 +1,70 @@
+.latestWork {
+  width: 191px;
+  position: relative;
+  line-height: 42px;
+  font-weight: 600;
+  display: none;
+}
+.figureXverseBrandGuidelin {
+  height: 1773px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.cardsSection,
+.component12 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  max-width: 100%;
+}
+.component12 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 320px;
+}
+.cardsSection {
+  flex-wrap: wrap;
+}
+.cardsSection,
+.cardsSectionWrapper,
+.games {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardsSectionWrapper {
+  align-self: stretch;
+  height: 1773px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.games {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 1050px) {
+  .latestWork {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .latestWork {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+}

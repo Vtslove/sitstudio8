@@ -1,0 +1,204 @@
+.linkedinLearningProject {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ourTeamMerges,
+.ultimateMissionOf {
+  margin: 0;
+}
+.ourTeamMergesContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: inherit;
+}
+.menuItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: var(--font-size-4xl);
+}
+.mainInfo,
+.mainInfoWrapper,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.navigation {
+  flex: 1;
+  background-color: var(--color-black);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  gap: var(--gap-xl);
+}
+.mainInfo,
+.mainInfoWrapper {
+  justify-content: flex-start;
+}
+.mainInfo {
+  flex: 1;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-xl);
+}
+.mainInfoWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-23xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--shades-0);
+  font-family: var(--font-inter);
+}
+.latestWork {
+  width: 191px;
+  position: relative;
+  line-height: 42px;
+  font-weight: 600;
+  display: none;
+}
+.figureXverseBrandGuidelin {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component12,
+.figureXverse3jpg,
+.figureXverseBrandGuidelin {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+}
+.component12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 320px;
+}
+.figureXverse3jpg {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardsSection,
+.component13,
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.component13 {
+  align-self: stretch;
+  flex: 1;
+  min-width: 320px;
+}
+.cardsSection,
+.header {
+  box-sizing: border-box;
+}
+.cardsSection {
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: 24px 22px;
+}
+.header {
+  align-self: stretch;
+  padding: 0 var(--padding-5xl) var(--padding-xl-1);
+}
+.figureXverseBrandGuidelin1 {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component121,
+.figureXverse3jpg1,
+.figureXverseBrandGuidelin1 {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+}
+.component121 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 320px;
+}
+.figureXverse3jpg1 {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardsSection1,
+.component131 {
+  flex: 1;
+  flex-direction: row;
+  max-width: 100%;
+}
+.component131 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 320px;
+}
+.cardsSection1 {
+  flex-wrap: wrap;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: 24px 22px;
+}
+.cardsSection1,
+.header1,
+.linkedinLearning {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.header1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl) var(--padding-23xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.linkedinLearning {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 1200px) {
+  .navigation {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}

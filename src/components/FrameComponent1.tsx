@@ -1,0 +1,55 @@
+import { FunctionComponent, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
+import Component from "./Component";
+import styles from "./styles/FrameComponent1.module.css";
+
+const FrameComponent1: FunctionComponent = () => {
+  const navigate = useNavigate();
+
+  const onImage2Click = useCallback(() => {
+    navigate("/smart-city");
+  }, [navigate]);
+
+  const onImage1Click = useCallback(() => {
+    navigate("/smart-city");
+  }, [navigate]);
+
+  return (
+    <section className={styles.cardsSectionWrapper}>
+      <div className={styles.cardsSection}>
+        <div className={styles.component12}>
+          <video
+            className={styles.image1}
+            autoPlay
+            muted
+            loop
+            onClick={onImage1Click}
+          >
+            <source
+              src={`https://www.dropbox.com/scl/fi/iu76ylep5dswv6159odz5/Coingrig_wallet.mp4?rlkey=tyuw0cior4oourqos0s47minn&raw=1`}
+            />
+          </video>
+          <div className={styles.coingrigWalletParent}>
+            <div className={styles.coingrigWallet}>Coingrig Wallet</div>
+            <div className={styles.uiuxPresentationProduct}>
+              UI/UX, Presentation, Product Development
+            </div>
+          </div>
+        </div>
+        <Component
+          image="/image-2@2x.png"
+          linkedInLearningAnimatedP="Smart City"
+          uIUXProductDevelopment="UI/UX, Presentation, Product Development"
+          propHeight="unset"
+          propPadding="unset"
+          propHeight1="unset"
+          onImage1Click={onImage2Click}
+          imageIconFlex="1"
+          imageIconMaxHeight="100%"
+        />
+      </div>
+    </section>
+  );
+};
+
+export default FrameComponent1;

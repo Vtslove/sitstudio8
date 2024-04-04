@@ -1,0 +1,71 @@
+.aCreative,
+.agencyFueled,
+.basedIn,
+.byCulture,
+.globalNetwork,
+.internetAnd {
+  margin: 0;
+}
+.aCreativeAgencyContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ourTeamMerges,
+.ultimateMissionOf {
+  margin: 0;
+}
+.ourTeamMergesContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: inherit;
+}
+.mainInfo,
+.menuItems,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.menuItems {
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: var(--font-size-4xl);
+}
+.mainInfo,
+.navigation {
+  align-items: center;
+  box-sizing: border-box;
+}
+.navigation {
+  flex: 1;
+  background-color: var(--color-black);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  gap: var(--gap-xl);
+}
+.mainInfo {
+  align-self: stretch;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--shades-0);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .navigation {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}

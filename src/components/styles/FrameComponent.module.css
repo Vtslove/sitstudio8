@@ -1,0 +1,64 @@
+.cardsSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: 24px 22px;
+  max-width: 100%;
+}
+.gallerySectionactualScale,
+.gallerySectionactualScaleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.gallerySectionactualScale {
+  background-color: var(--color-black);
+  overflow: hidden;
+  align-items: center;
+  padding: 0 var(--padding-51xl);
+  box-sizing: border-box;
+  min-height: 680px;
+}
+.gallerySectionactualScaleParent {
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+}
+@media screen and (max-width: 1225px) {
+  .gallerySectionactualScale {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .gallerySectionactualScale {
+    flex: 1;
+    gap: 21px 42px;
+  }
+  .gallerySectionactualScaleParent {
+    gap: 20px 40px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .gallerySectionactualScale {
+    flex: 1;
+    gap: 21px 42px;
+  }
+  .gallerySectionactualScaleParent {
+    gap: 20px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gallerySectionactualScale {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}

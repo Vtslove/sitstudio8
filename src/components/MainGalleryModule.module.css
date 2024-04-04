@@ -1,0 +1,166 @@
+.webDesignStudio {
+  line-height: 1;
+  font-size: 79px;
+  margin: 0;
+}
+.webDesignStudioContainer {
+  margin: 0;
+  width: 455px;
+  position: relative;
+  font-size: inherit;
+  line-height: 101px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.imageIcon {
+  height: 491px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageIcon,
+.productDevelopment,
+.sntlCurrency {
+  align-self: stretch;
+  position: relative;
+}
+.sntlCurrency {
+  line-height: 30px;
+  font-weight: 600;
+}
+.productDevelopment {
+  font-size: var(--body-text-size);
+  line-height: 27px;
+}
+.component12,
+.titleDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.titleDescription {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  flex-shrink: 0;
+  font-size: var(--subtitle-size);
+  font-family: var(--body-text);
+}
+.component12 {
+  flex: 1;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 320px;
+  max-width: 100%;
+}
+.imageIcon1 {
+  align-self: stretch;
+  height: 771px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.linkedinLearningAnimated {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+}
+.uiuxProductDevelopment {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 27px;
+}
+.component13,
+.titleDescription1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.titleDescription1 {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  flex-shrink: 0;
+}
+.component13 {
+  height: 812px;
+  flex: 1;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 320px;
+  max-width: 100%;
+  font-size: var(--subtitle-size);
+  font-family: var(--body-text);
+}
+.cardsSection,
+.headerScowcaseModule {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cardsSection {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: 24px 22px;
+  flex-shrink: 0;
+}
+.headerScowcaseModule {
+  align-self: stretch;
+  height: 404px;
+  justify-content: center;
+  padding: 0 var(--padding-51xl);
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 975px) {
+  .headerScowcaseModule {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .webDesignStudioContainer {
+    font-size: var(--font-size-31xl);
+    line-height: 61px;
+  }
+  .linkedinLearningAnimated,
+  .sntlCurrency {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .headerScowcaseModule {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .webDesignStudioContainer {
+    font-size: var(--font-size-31xl);
+    line-height: 61px;
+  }
+  .linkedinLearningAnimated,
+  .sntlCurrency {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+}
