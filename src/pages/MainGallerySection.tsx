@@ -22,7 +22,7 @@ const MainGallerySection: FunctionComponent = () => {
             loop
             onClick={onImageClick}
           >
-            <source src="https://www.dropbox.com/scl/fi/ddbfcpyvjl3g9956f74eq/LINKEDIN-LEARNING-ANIMATION-PROJECT.mp4?rlkey=9btnk9oyfkd3jy7i5wm9flsfw&raw=1" />
+            <source src="https://www.dropbox.com/scl/fi/23rjmeve789cdsfix7j7b/LINKEDIN-LEARNING-ANIMATION-PROJECT-1440p.mp4?rlkey=lt4j2368wwlnijw12mtygnkm3&raw=1" />
           </video>
       <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
         <div className="self-stretch relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
