@@ -12,6 +12,7 @@
   position: relative;
   line-height: 140%;
   font-weight: 800;
+
 }
 .sitStudioWrapper {
   overflow: hidden;
@@ -22,12 +23,16 @@
   padding: var(--padding-mini) var(--padding-smi);
   font-size: var(--font-size-17xl);
 }
-.catalog,
+.catalog {
+  position: relative;
+  line-height: 140%;
+}
 .eswt,
 .hilt,
 .skinIq {
   position: relative;
   line-height: 140%;
+  cursor: pointer;
 }
 .catalog {
   align-self: stretch;
@@ -37,6 +42,7 @@
 .hilt,
 .skinIq {
   opacity: 0.75;
+  cursor: pointer;
 }
 .rehabSimulators {
   width: 193px;
@@ -47,6 +53,7 @@
   position: relative;
   line-height: 140%;
   opacity: 0.75;
+  cursor: pointer;
 }
 .catalogParent,
 .eswtParent {
@@ -74,6 +81,7 @@
   position: relative;
   line-height: 140%;
   opacity: 0.75;
+  cursor: pointer;
 }
 .orderDesignParent,
 .servicesParent {
@@ -90,11 +98,15 @@
 .servicesParent {
   gap: var(--gap-11xl);
 }
-.about,
+.about {
+  position: relative;
+  line-height: 140%;
+}
 .aboutUs,
 .news {
   position: relative;
   line-height: 140%;
+  cursor: pointer;
 }
 .about {
   align-self: stretch;
@@ -123,6 +135,7 @@
   position: relative;
   line-height: 140%;
   font-weight: 500;
+  cursor: pointer;
 }
 .getInTouchWrapper {
   border-radius: var(--br-21xl);
@@ -139,6 +152,7 @@
   height: 18px;
   overflow: hidden;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .icons8Tiktok1Wrapper {
   width: 50px;
@@ -152,6 +166,7 @@
   justify-content: center;
   padding: var(--padding-3xs);
   z-index: 0;
+  cursor: pointer;
 }
 .icons8Youtube1 {
   width: 20px;
@@ -159,6 +174,7 @@
   height: 20px;
   overflow: hidden;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .icons8Youtube1Wrapper {
   width: 43.48%;
@@ -178,6 +194,7 @@
   justify-content: center;
   padding: var(--padding-3xs);
   z-index: 1;
+  cursor: pointer;
 }
 .socials {
   width: 115px;

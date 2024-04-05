@@ -1,8 +1,9 @@
-import { FunctionComponent, useState, useCallback } from "react";
+import { FunctionComponent, useState, useCallback,  } from "react";
 import PopupMega from "../components/PopupMega";
 import PortalPopup from "../components/PortalPopup";
-import FrameComponent2 from "../components/FrameComponent2";
+import FrameComponent4 from "../components/FrameComponent4";
 import styles from "./ABOUTRESPONSIVE.module.css";
+import { useNavigate } from "react-router-dom";
 
 const ABOUTRESPONSIVE: FunctionComponent = () => {
   const [isPopupMegaOpen, setPopupMegaOpen] = useState(false);
@@ -15,12 +16,18 @@ const ABOUTRESPONSIVE: FunctionComponent = () => {
     setPopupMegaOpen(false);
   }, []);
 
+  const navigate = useNavigate();
+
+  const onAboutTextClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
   return (
     <>
       <div className={styles.aboutResponsive}>
         <header className={styles.navbarTestingWrapper}>
           <div className={styles.navbarTesting}>
-            <h2 className={styles.sitStudio}>sit studio</h2>
+            <h2 className={styles.sitStudio} onClick={onAboutTextClick}>sit studio</h2>
             <div className={styles.menuWrapper}>
               <h2 className={styles.menu} onClick={openPopupMega}>
                 menu
@@ -28,7 +35,7 @@ const ABOUTRESPONSIVE: FunctionComponent = () => {
             </div>
           </div>
         </header>
-        <FrameComponent2 />
+        <FrameComponent4 />
       </div>
       {isPopupMegaOpen && (
         <PortalPopup

@@ -1,40 +1,97 @@
-.latestWork {
-  width: 191px;
+.linkedinLearningProject {
+  margin: 0;
   position: relative;
-  line-height: 42px;
-  font-weight: 600;
-  display: none;
+  font-size: inherit;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ourTeamMerges,
+.ultimateMissionOf {
+  margin: 0;
+}
+.ourTeamMergesContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: inherit;
+}
+.menuItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: var(--font-size-4xl);
+}
+.mainInfo,
+.mainInfoWrapper,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.navigation {
+  flex: 1;
+  background-color: var(--color-black);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  gap: var(--gap-xl);
+}
+.mainInfo,
+.mainInfoWrapper {
+  justify-content: flex-start;
+}
+.mainInfo {
+  flex: 1;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-xl);
+}
+.mainInfoWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-23xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--shades-0);
+  font-family: var(--font-inter);
 }
 .figureXverseBrandGuidelin {
-  align-self: stretch;
-  flex: 1;
   position: relative;
-  max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
 }
-.component12 {
-  height: 531.6px;
+.component12,
+.figureXverse3jpg,
+.figureXverseBrandGuidelin {
+  align-self: stretch;
   flex: 1;
+  max-width: 100%;
+}
+.component12 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   min-width: 320px;
-  max-width: 100%;
 }
 .figureXverse3jpg {
-  height: 532px;
-  flex: 1;
   position: relative;
-  max-width: 100%;
   overflow: hidden;
+  max-height: 100%;
   object-fit: cover;
 }
 .cardsSection,
 .component13,
-.navbarTesting {
+.header {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -42,12 +99,12 @@
   max-width: 100%;
 }
 .component13 {
-  height: 532px;
+  align-self: stretch;
   flex: 1;
   min-width: 320px;
 }
 .cardsSection,
-.navbarTesting {
+.header {
   box-sizing: border-box;
 }
 .cardsSection {
@@ -56,34 +113,34 @@
   padding: 0 var(--padding-11xs) 0 0;
   gap: 24px 22px;
 }
-.navbarTesting {
+.header {
   align-self: stretch;
   padding: 0 var(--padding-5xl) var(--padding-xl-1);
 }
 .figureXverseBrandGuidelin1 {
-  height: 531.6px;
-  flex: 1;
   position: relative;
-  max-width: 100%;
   overflow: hidden;
+  max-height: 100%;
   object-fit: cover;
 }
-.component121 {
-  height: 531.6px;
+.component121,
+.figureXverse3jpg1,
+.figureXverseBrandGuidelin1 {
+  align-self: stretch;
   flex: 1;
+  max-width: 100%;
+}
+.component121 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   min-width: 320px;
-  max-width: 100%;
 }
-.figureXverseBrandGuidelin2 {
-  height: 511px;
-  flex: 1;
+.figureXverse3jpg1 {
   position: relative;
-  max-width: 100%;
   overflow: hidden;
+  max-height: 100%;
   object-fit: cover;
 }
 .cardsSection1,
@@ -93,39 +150,37 @@
   max-width: 100%;
 }
 .component131 {
-  height: 531.6px;
+  align-self: stretch;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 20.6px;
-  box-sizing: border-box;
   min-width: 320px;
 }
 .cardsSection1 {
   flex-wrap: wrap;
   padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
   gap: 24px 22px;
 }
 .cardsSection1,
-.navbarTesting1,
-.sntl {
+.header1,
+.linkedinLearning {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  box-sizing: border-box;
 }
-.navbarTesting1 {
+.header1 {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-5xl) 42.4px;
+  padding: 0 var(--padding-5xl) var(--padding-23xl);
+  box-sizing: border-box;
   max-width: 100%;
 }
-.sntl {
+.linkedinLearning {
   width: 100%;
   position: relative;
   background-color: var(--color-black);
   flex-direction: column;
-  padding: 0 0 63.5px;
   gap: var(--gap-3xs);
   letter-spacing: normal;
   text-align: center;
@@ -133,21 +188,46 @@
   color: var(--black);
   font-family: var(--body-text);
 }
-@media screen and (max-width: 1050px) {
-  .latestWork {
-    font-size: var(--font-size-7xl);
-    line-height: 34px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .navbarTesting1 {
-    padding-bottom: 28px;
+@media screen and (max-width: 1200px) {
+  .navigation {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
-  .latestWork {
-    font-size: var(--font-size-lgi);
-    line-height: 25px;
+@media screen and (max-width: 1200px) {
+  .mainInfoWrapper {
+    z-index: 2;
+    margin-top: -48%;
   }
-}
+  }
+  @media screen and (max-width: 900px) {
+    .mainInfoWrapper {
+      z-index: 2;
+      margin-top: -65%;
+    }
+    }
+    @media screen and (max-width: 666px) {
+      .mainInfoWrapper {
+        z-index: 2;
+        margin-top: -86%;
+      }
+      }
+      @media screen and (max-width: 530px) {
+        .mainInfoWrapper {
+          z-index: 2;
+          margin-top: -100%;
+        }
+        }
+        @media screen and (max-width: 435px) {
+          .mainInfoWrapper {
+            z-index: 2;
+            margin-top: -125%;
+          }
+          }
+          @media screen and (max-width: 380px) {
+            .mainInfoWrapper {
+              z-index: 2;
+              margin-top: -140%;
+            }
+            }

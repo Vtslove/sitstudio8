@@ -10,6 +10,7 @@
   align-items: center;
   max-width: 100%;
   font-family: inherit;
+  justify-content: center;
 }
 .menuItems,
 .menuItemsWrapper {
@@ -155,5 +156,21 @@
   }
   .frameParent {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contactUsGetContainer {
+    top: 26px;
+  }
+}
+@media screen and (max-width: 615px) {
+  .contactUsGetContainer {
+    top: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactUsGetContainer {
+    position: relative;
+    top: -70px;
   }
 }

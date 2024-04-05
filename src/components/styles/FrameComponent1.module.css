@@ -80,6 +80,7 @@
   .cardsSectionWrapper {
     padding-bottom: var(--padding-8xl);
     box-sizing: border-box;
+    margin-top: 0.5%;
   }
 }
 @media screen and (max-width: 850px) {
@@ -110,5 +111,11 @@
   .component12 {
     align-self: stretch;
     height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cardsSectionWrapper {
+    padding: 5%;
+    margin-top: -56%;
   }
 }

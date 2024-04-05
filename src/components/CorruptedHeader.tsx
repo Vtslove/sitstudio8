@@ -26,13 +26,17 @@ const CorruptedHeader: FunctionComponent = () => {
     navigate("/sntl");
   }, [navigate]);
 
+  const onImage3Click = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
   return (
     <>
       <section className={styles.corruptedHeader}>
         <div className={styles.header}>
           <header className={styles.navbar}>
             <div className={styles.navbarTesting}>
-              <h2 className={styles.sitStudio}>sit studio</h2>
+              <h2 className={styles.sitStudio} onClick={onImage3Click}>sit studio</h2>
               <h2 className={styles.menu} onClick={openPopupMega}>
                 menu
               </h2>

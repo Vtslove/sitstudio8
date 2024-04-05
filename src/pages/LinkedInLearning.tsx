@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import Header from "../components/Header";
-import Footer1 from "../components/Footer1";
+import Footer from "../components/Footer";
 import styles from "./LinkedInLearning.module.css";
 
 const LinkedInLearning: FunctionComponent = () => {
@@ -28,7 +28,6 @@ const LinkedInLearning: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <div className={styles.latestWork}>Latest work</div>
       <section className={styles.header}>
         <div className={styles.cardsSection}>
           <div className={styles.component12}>
@@ -69,7 +68,7 @@ const LinkedInLearning: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <Footer1 />
+      <Footer />
     </div>
   );
 };

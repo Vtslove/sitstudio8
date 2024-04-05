@@ -1,16 +1,34 @@
 import { FunctionComponent } from "react";
-import Header1 from "../components/Header1";
-import FrameComponent5 from "../components/FrameComponent5";
-import HeaderFooter from "../components/HeaderFooter";
-import styles from "./SmartCity.module.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import styles from "./LinkedInLearning.module.css";
 
-const SmartCity: FunctionComponent = () => {
+const LinkedInLearning: FunctionComponent = () => {
   return (
-    <div className={styles.smartCity}>
-      <Header1 navbarTestingBackgroundImage="url('/header@3x.png')" />
-      <FrameComponent5 sNTLCurrencyWallet="smart city project" />
-      <div className={styles.latestWork}>Latest work</div>
-      <section className={styles.headerNavbarTestingSiteStu}>
+    <div className={styles.linkedinLearning}>
+      <Header />
+      <section className={styles.mainInfoWrapper}>
+        <div className={styles.mainInfo}>
+          <div className={styles.navigation}>
+            <h1 className={styles.linkedinLearningProject}>
+              SMART CITY PROJECT.
+            </h1>
+            <div className={styles.menuItems}>
+              <h3 className={styles.ourTeamMergesContainer}>
+                <p className={styles.ourTeamMerges}>
+                  Our team merges extensive expertise in strategy, branding and
+                  content, with the
+                </p>
+                <p className={styles.ultimateMissionOf}>
+                  ultimate mission of enabling our partners in connecting with
+                  modern audiences.
+                </p>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={styles.header}>
         <div className={styles.cardsSection}>
           <div className={styles.component12}>
             <img
@@ -30,7 +48,7 @@ const SmartCity: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <section className={styles.headerNavbarTestingSiteStu1}>
+      <section className={styles.header1}>
         <div className={styles.cardsSection1}>
           <div className={styles.component121}>
             <img
@@ -50,12 +68,9 @@ const SmartCity: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <HeaderFooter
-        propHeight="77px"
-        propPadding="0px 0px var(--padding-19xl)"
-      />
+      <Footer />
     </div>
   );
 };
 
-export default SmartCity;
+export default LinkedInLearning;

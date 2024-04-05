@@ -9,6 +9,7 @@
   line-height: 30px;
   font-family: inherit;
   white-space: nowrap;
+  cursor: pointer;
 }
 .menu {
   line-height: 27px;

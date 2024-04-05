@@ -435,3 +435,40 @@
     line-height: 29px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+.mainContainer {
+  z-index: 2;
+  margin-top: -38%;
+}
+}
+@media screen and (max-width: 900px) {
+  .mainContainer {
+    z-index: 2;
+    margin-top: -50%;
+  }
+  }
+  @media screen and (max-width: 666px) {
+    .mainContainer {
+      z-index: 2;
+      margin-top: -66%;
+    }
+    }
+    @media screen and (max-width: 530px) {
+      .mainContainer {
+        z-index: 2;
+        margin-top: -80%;
+      }
+      }
+      @media screen and (max-width: 435px) {
+        .mainContainer {
+          z-index: 2;
+          margin-top: -95%;
+        }
+        }
+        @media screen and (max-width: 380px) {
+          .mainContainer {
+            z-index: 2;
+            margin-top: -110%;
+          }
+          }

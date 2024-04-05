@@ -9,6 +9,7 @@
 .sitStudio {
   line-height: 30px;
   white-space: nowrap;
+  cursor: pointer
 }
 .menu {
   line-height: 27px;

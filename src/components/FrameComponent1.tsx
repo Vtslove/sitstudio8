@@ -11,7 +11,7 @@ const FrameComponent1: FunctionComponent = () => {
   }, [navigate]);
 
   const onImage1Click = useCallback(() => {
-    navigate("/smart-city");
+    navigate("/coingrig");
   }, [navigate]);
 
   return (

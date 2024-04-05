@@ -6,6 +6,7 @@
   line-height: 30px;
   font-weight: 800;
   font-family: inherit;
+  cursor: pointer;
 }
 .menu {
   line-height: 27px;

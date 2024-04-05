@@ -5,6 +5,7 @@ import {
   type CSSProperties,
   useCallback,
 } from "react";
+import { useNavigate } from "react-router-dom";
 import PopupMega from "./PopupMega";
 import PortalPopup from "./PortalPopup";
 import styles from "./styles/Header.module.css";
@@ -35,11 +36,17 @@ const Header: FunctionComponent<HeaderType> = ({
     setPopupMegaOpen(false);
   }, []);
 
+  const navigate = useNavigate();
+
+  const onImage3Click = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
   return (
     <>
       <section className={styles.header} style={headerStyle}>
         <div className={styles.navbarTesting}>
-          <h2 className={styles.sitStudio}>sit studio</h2>
+          <h2 className={styles.sitStudio} onClick={onImage3Click}>sit studio</h2>
           <div className={styles.menuWrapper}>
             <h2 className={styles.menu} onClick={openPopupMega}>
               menu

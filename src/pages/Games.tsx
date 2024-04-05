@@ -1,16 +1,34 @@
 import { FunctionComponent } from "react";
-import Header1 from "../components/Header1";
-import FrameComponent5 from "../components/FrameComponent5";
-import HeaderFooter from "../components/HeaderFooter";
-import styles from "./Games.module.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import styles from "./LinkedInLearning.module.css";
 
-const Games: FunctionComponent = () => {
+const LinkedInLearning: FunctionComponent = () => {
   return (
-    <div className={styles.games}>
-      <Header1 navbarTestingBackgroundImage="url('/header@3x.png')" />
-      <FrameComponent5 sNTLCurrencyWallet="Rirnitaitis - game concept." />
-      <div className={styles.latestWork}>Latest work</div>
-      <section className={styles.cardsSectionWrapper}>
+    <div className={styles.linkedinLearning}>
+      <Header />
+      <section className={styles.mainInfoWrapper}>
+        <div className={styles.mainInfo}>
+          <div className={styles.navigation}>
+            <h1 className={styles.linkedinLearningProject}>
+              RIRNITAILS - GAME CONCEPT.
+            </h1>
+            <div className={styles.menuItems}>
+              <h3 className={styles.ourTeamMergesContainer}>
+                <p className={styles.ourTeamMerges}>
+                  Our team merges extensive expertise in strategy, branding and
+                  content, with the
+                </p>
+                <p className={styles.ultimateMissionOf}>
+                  ultimate mission of enabling our partners in connecting with
+                  modern audiences.
+                </p>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={styles.header}>
         <div className={styles.cardsSection}>
           <div className={styles.component12}>
             <img
@@ -20,11 +38,13 @@ const Games: FunctionComponent = () => {
               src="/figure--xversebrandguidelinesjpg5@2x.png"
             />
           </div>
+          
         </div>
       </section>
-      <HeaderFooter propHeight="unset" propPadding="unset" />
+      
+      <Footer />
     </div>
   );
 };
 
-export default Games;
+export default LinkedInLearning;

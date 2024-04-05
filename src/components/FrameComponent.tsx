@@ -32,7 +32,7 @@ const FrameComponent: FunctionComponent = () => {
           />
           <Component
             image="/image-3@2x.png"
-            linkedInLearningAnimatedP="Coingrig Wallet"
+            linkedInLearningAnimatedP="Vanguard concept"
             uIUXProductDevelopment="UI/UX, Presentation, Product Development"
             propHeight="unset"
             propPadding="unset"

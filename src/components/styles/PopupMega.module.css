@@ -255,8 +255,24 @@
   padding: var(--padding-5xl) var(--padding-6xl) var(--padding-xs);
   gap: var(--gap-xl);
 }
-.behance,
-.linkedin,
+.behance {
+  height: 50px;
+  position: relative;
+  line-height: 30px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.linkedin {
+  height: 50px;
+  position: relative;
+  line-height: 30px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
 .viewMore {
   height: 50px;
   position: relative;
@@ -264,6 +280,7 @@
   font-weight: 800;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .viewMore {
   color: #787878;

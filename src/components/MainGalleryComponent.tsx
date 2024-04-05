@@ -22,6 +22,10 @@ const MainGalleryComponent: FunctionComponent<ComponentType> = ({
   const onImage2Click = useCallback(() => {
     navigate("/linkedin-learning");
   }, [navigate]);
+
+  const onImageClick = useCallback(() => {
+    navigate("/sntl");
+  }, [navigate]);
   const imageIconStyle: CSSProperties = useMemo(() => {
     return {
       height: projectTitleHeight,
@@ -41,11 +45,10 @@ const MainGalleryComponent: FunctionComponent<ComponentType> = ({
         alt=""
         src={image}
         style={imageIconStyle}
-        onClick={onImage2Click}
+        onClick={onImageClick}
       />
       <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
         <div
-        onClick={onImage2Click}
         className="self-stretch relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
           SNTL Wallet
         </div>

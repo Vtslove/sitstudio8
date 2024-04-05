@@ -65,11 +65,19 @@ const PopupMega: FunctionComponent<PopupMegaType> = ({ onClose }) => {
     navigate("/");
   }, [navigate]);
 
+  const onSocialLinkClick = useCallback(() => {
+    window.open("https://www.linkedin.com/in/vladislav-sankin-b88415225/");
+  }, []);
+
+  const onSocialLink2Click = useCallback(() => {
+    window.open("https://www.behance.net/hamberdumber");
+  }, []);
+
   return (
     <div className={styles.popupMega}>
       <header className={styles.navbar} onClick={onClose}>
         <div className={styles.work} onClick={onWorkTextClick}>
-          Work
+          Home
         </div>
         <div className={styles.services} onClick={onServicesTextClick}>
           Services
@@ -81,7 +89,7 @@ const PopupMega: FunctionComponent<PopupMegaType> = ({ onClose }) => {
           Contact
         </div>
         <div className={styles.home} onClick={onHomeTextClick}>
-          Home
+          Work
         </div>
         <div className={styles.x} onClick={onClose}>
           X
@@ -120,7 +128,7 @@ const PopupMega: FunctionComponent<PopupMegaType> = ({ onClose }) => {
       </section>
       <div className={styles.navbar1} onClick={onClose}>
         <div className={styles.work1} onClick={onWorkText1Click}>
-          Work
+          Home
         </div>
         <div className={styles.services1} onClick={onServicesText1Click}>
           Services
@@ -132,15 +140,15 @@ const PopupMega: FunctionComponent<PopupMegaType> = ({ onClose }) => {
           Contact
         </div>
         <div className={styles.home1} onClick={onHomeText1Click}>
-          Home
+          Work
         </div>
         <div className={styles.x1} onClick={onClose}>
           X
         </div>
       </div>
       <div className={styles.linkedinParent}>
-        <div className={styles.linkedin}>LinkedIn</div>
-        <div className={styles.behance}>Behance</div>
+        <div className={styles.linkedin} onClick={onSocialLinkClick}>LinkedIn</div>
+        <div className={styles.behance} onClick={onSocialLink2Click}>Behance</div>
         <div className={styles.viewMore}>VIEW MORE</div>
         <img
           className={styles.frameChild}

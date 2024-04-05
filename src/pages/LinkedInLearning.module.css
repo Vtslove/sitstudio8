@@ -63,13 +63,6 @@
   color: var(--shades-0);
   font-family: var(--font-inter);
 }
-.latestWork {
-  width: 191px;
-  position: relative;
-  line-height: 42px;
-  font-weight: 600;
-  display: none;
-}
 .figureXverseBrandGuidelin {
   position: relative;
   overflow: hidden;
@@ -123,6 +116,7 @@
 .header {
   align-self: stretch;
   padding: 0 var(--padding-5xl) var(--padding-xl-1);
+  margin-top: -5%;
 }
 .figureXverseBrandGuidelin1 {
   position: relative;
@@ -202,3 +196,39 @@
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 1200px) {
+  .mainInfoWrapper {
+    z-index: 2;
+    margin-top: -48%;
+  }
+  }
+  @media screen and (max-width: 900px) {
+    .mainInfoWrapper {
+      z-index: 2;
+      margin-top: -65%;
+    }
+    }
+    @media screen and (max-width: 666px) {
+      .mainInfoWrapper {
+        z-index: 2;
+        margin-top: -86%;
+      }
+      }
+      @media screen and (max-width: 530px) {
+        .mainInfoWrapper {
+          z-index: 2;
+          margin-top: -100%;
+        }
+        }
+        @media screen and (max-width: 435px) {
+          .mainInfoWrapper {
+            z-index: 2;
+            margin-top: -125%;
+          }
+          }
+          @media screen and (max-width: 380px) {
+            .mainInfoWrapper {
+              z-index: 2;
+              margin-top: -140%;
+            }
+            }

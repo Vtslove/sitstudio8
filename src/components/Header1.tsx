@@ -7,6 +7,7 @@ import {
 } from "react";
 import PopupMega from "./PopupMega";
 import PortalPopup from "./PortalPopup";
+import { useNavigate } from "react-router-dom";
 import styles from "./styles/Header1.module.css";
 
 export type Header1Type = {
@@ -32,11 +33,17 @@ const Header1: FunctionComponent<Header1Type> = ({
     setPopupMegaOpen(false);
   }, []);
 
+  const navigate = useNavigate();
+
+  const onImage3Click = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
   return (
     <>
       <section className={styles.header} style={header1Style}>
         <div className={styles.navbarTesting}>
-          <h2 className={styles.sitStudio}>sit studio</h2>
+          <h2 className={styles.sitStudio} onClick={onImage3Click}>sit studio</h2>
           <div className={styles.navbarTesting1}>
             <h2 className={styles.menu} onClick={openPopupMega}>
               menu
