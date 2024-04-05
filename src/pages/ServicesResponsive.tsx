@@ -14,8 +14,7 @@ const ServicesResponsive: FunctionComponent = () => {
       />
       <section className={styles.mainContainer}>
         <MainInfo
-          internetAnd="Barcelona and"
-          globalNetwork="Amsterdam."
+          internetAnd="Global network"
           propAlignSelf="unset"
           propFlex="1"
         />

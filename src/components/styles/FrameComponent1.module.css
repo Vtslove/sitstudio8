@@ -6,17 +6,18 @@
 .image1 {
   flex: 1;
   background-color: var(--color-red);
-  cursor: pointer;
 }
 .coingrigWallet {
   line-height: 30px;
   font-weight: 600;
+  cursor: pointer;
 }
 .uiuxPresentationProduct {
   align-self: stretch;
   position: relative;
   font-size: var(--body-text-size);
   line-height: 27px;
+  cursor: pointer;
 }
 .coingrigWalletParent {
   align-self: stretch;

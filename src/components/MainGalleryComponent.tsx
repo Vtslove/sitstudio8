@@ -49,10 +49,10 @@ const MainGalleryComponent: FunctionComponent<ComponentType> = ({
       />
       <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
         <div
-        className="self-stretch relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+        className="self-stretch relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px] cursor-pointer" onClick={onImageClick}>
           SNTL Wallet
         </div>
-        <div className="self-stretch relative text-mid leading-[27px]">
+        <div className="self-stretch relative text-mid leading-[27px] cursor-pointer" onClick={onImageClick}>
          Finances, UI/UX
         </div>
       </div>

@@ -16,7 +16,7 @@ const MainGallerySection: FunctionComponent = () => {
       
          <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[320px] max-w-full text-left text-xl text-white font-body-text">
          <video
-            className="self-stretch flex-1 relative bg-cover bg-no-repeat bg-[top] object-contain z-[2] cursor-pointer"
+            className="self-stretch flex-1 relative bg-cover bg-no-repeat bg-[top] object-contain z-[2]"
             autoPlay
             muted
             loop
@@ -24,10 +24,10 @@ const MainGallerySection: FunctionComponent = () => {
             <source src="https://www.dropbox.com/scl/fi/23rjmeve789cdsfix7j7b/LINKEDIN-LEARNING-ANIMATION-PROJECT-1440p.mp4?rlkey=lt4j2368wwlnijw12mtygnkm3&raw=1" />
           </video>
       <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
-        <div className="self-stretch relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]" onClick={onImageClick}>
+        <div className="self-stretch relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px] cursor-pointer" onClick={onImageClick}>
           Linkedin Learning Animation Project
         </div>
-        <div className="self-stretch relative text-mid leading-[27px]" onClick={onImageClick}>
+        <div className="self-stretch relative text-mid leading-[27px] cursor-pointer" onClick={onImageClick}>
           Study, UI/UX, Presentation
         </div>
       </div>
