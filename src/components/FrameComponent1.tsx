@@ -23,15 +23,14 @@ const FrameComponent1: FunctionComponent = () => {
             autoPlay
             muted
             loop
-            onClick={onImage1Click}
           >
             <source
               src={`https://www.dropbox.com/scl/fi/iu76ylep5dswv6159odz5/Coingrig_wallet.mp4?rlkey=tyuw0cior4oourqos0s47minn&raw=1`}
             />
           </video>
           <div className={styles.coingrigWalletParent}>
-            <div className={styles.coingrigWallet}>Coingrig Wallet</div>
-            <div className={styles.uiuxPresentationProduct}>
+            <div className={styles.coingrigWallet } onClick={onImage1Click}>Coingrig Wallet</div>
+            <div className={styles.uiuxPresentationProduct} onClick={onImage1Click}>
               UI/UX, Presentation, Product Development
             </div>
           </div>

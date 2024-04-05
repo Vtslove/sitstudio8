@@ -20,15 +20,14 @@ const MainGallerySection: FunctionComponent = () => {
             autoPlay
             muted
             loop
-            onClick={onImageClick}
           >
             <source src="https://www.dropbox.com/scl/fi/23rjmeve789cdsfix7j7b/LINKEDIN-LEARNING-ANIMATION-PROJECT-1440p.mp4?rlkey=lt4j2368wwlnijw12mtygnkm3&raw=1" />
           </video>
       <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
-        <div className="self-stretch relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]">
+        <div className="self-stretch relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px]" onClick={onImageClick}>
           Linkedin Learning Animation Project
         </div>
-        <div className="self-stretch relative text-mid leading-[27px]">
+        <div className="self-stretch relative text-mid leading-[27px]" onClick={onImageClick}>
           Study, UI/UX, Presentation
         </div>
       </div>
