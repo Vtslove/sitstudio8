@@ -37,7 +37,7 @@ const FrameComponent1: FunctionComponent = () => {
         </div>
         <Component
           image="/image-2@2x.png"
-          linkedInLearningAnimatedP="Smart City"
+          linkedInLearningAnimatedP="Smart City Event Platform"
           uIUXProductDevelopment="UI/UX, Presentation, Product Development"
           propHeight="unset"
           propPadding="unset"
