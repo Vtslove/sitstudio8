@@ -13,7 +13,7 @@ const MainHomePage: FunctionComponent = () => {
         <div className={styles.menuItemsWrapper}>
           <div className={styles.menuItems}>
             <h1 className={styles.contactUsGetContainer}>
-              <span>
+              <span className={styles.letters}>
                 <span>{`Contact us, get our email: `}</span>
                 <b>sitstudiomail@gmail.com</b>
               </span>

@@ -172,5 +172,11 @@
   .contactUsGetContainer {
     position: relative;
     top: -70px;
+    margin-bottom: -60%
+  }
+}
+@media screen and (max-width: 450px) {
+  .letters {
+    margin-top: -57%
   }
 }
