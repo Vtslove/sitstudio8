@@ -25,7 +25,7 @@ const FrameComponent1: FunctionComponent = () => {
             loop
           >
             <source
-              src={`https://www.dropbox.com/scl/fi/iu76ylep5dswv6159odz5/Coingrig_wallet.mp4?rlkey=tyuw0cior4oourqos0s47minn&raw=1`}
+              src={`https://www.dropbox.com/scl/fi/idxub6pz7n9pmz6rv28p4/Coingrig_wallet.webm?rlkey=vx5xe0fcvnb84033v0iwjs2vb&st=wgmjnflz&raw=1`}
             />
           </video>
           <div className={styles.coingrigWalletParent}>

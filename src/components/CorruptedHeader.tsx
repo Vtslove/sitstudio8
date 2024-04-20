@@ -45,7 +45,7 @@ const CorruptedHeader: FunctionComponent = () => {
           <img
             className={styles.headerBackgroundIcon}
             alt=""
-            src="/header-background@2x.png"
+            src="/header-background@2x.webp"
           />
           <MainGallerySection></MainGallerySection>
         </div>

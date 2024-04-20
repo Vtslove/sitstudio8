@@ -12,7 +12,7 @@ const MainGallerySection: FunctionComponent = () => {
   return (
     <div className="w-full relative bg-black1 overflow-hidden flex flex-col items-center justify-start py-[42px] px-6 box-border tracking-[normal] mq640:gap-[21px_42px]" style={{marginTop: "-15%", padding: "4.5%" }}>
       <section className="self-stretch flex flex-row flex-wrap items-end justify-center gap-[24px_22px] max-w-full">
-        <MainGalleryComponent image="/image@99x.png" />
+        <MainGalleryComponent image="/image@99x.webp" />
       
          <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[320px] max-w-full text-left text-xl text-white font-body-text">
          <video
