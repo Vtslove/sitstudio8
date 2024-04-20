@@ -21,7 +21,7 @@ const MainGallerySection: FunctionComponent = () => {
             muted
             loop
           >
-            <source src="https://www.dropbox.com/scl/fi/23rjmeve789cdsfix7j7b/LINKEDIN-LEARNING-ANIMATION-PROJECT-1440p.mp4?rlkey=lt4j2368wwlnijw12mtygnkm3&raw=1" />
+            <source src="https://www.dropbox.com/scl/fi/1andtrxjln0kqwmv3i10k/LINKEDIN-LEARNING-ANIMATION-PROJECT-1440p.webm?rlkey=co58e9q396k9709jjjacdotxc&st=xtygqmlq&raw=1" />
           </video>
       <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
         <div className="self-stretch relative leading-[30px] font-semibold mq450:text-base mq450:leading-[24px] cursor-pointer" onClick={onImageClick}>
