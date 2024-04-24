@@ -20,6 +20,8 @@ const MainGallerySection: FunctionComponent = () => {
             autoPlay
             muted
             loop
+            controls
+            
           >
             <source src="https://www.dropbox.com/scl/fi/1andtrxjln0kqwmv3i10k/LINKEDIN-LEARNING-ANIMATION-PROJECT-1440p.webm?rlkey=co58e9q396k9709jjjacdotxc&st=xtygqmlq&raw=1" />
           </video>
