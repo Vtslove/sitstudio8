@@ -23,7 +23,6 @@ const FrameComponent1: FunctionComponent = () => {
             autoPlay
             muted
             loop
-            controls
           >
             <source
               src={`https://www.dropbox.com/scl/fi/idxub6pz7n9pmz6rv28p4/Coingrig_wallet.webm?rlkey=vx5xe0fcvnb84033v0iwjs2vb&st=wgmjnflz&raw=1`}
