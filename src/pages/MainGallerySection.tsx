@@ -20,6 +20,7 @@ const MainGallerySection: FunctionComponent = () => {
             autoPlay
             muted
             loop
+            controls
           >
             <source src="https://res.cloudinary.com/dituvckin/video/upload/f_auto:video,q_auto/LINKEDIN_LEARNING_ANIMATION_PROJECT_yapkcq" />
           </video>

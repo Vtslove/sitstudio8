@@ -23,6 +23,7 @@ const FrameComponent1: FunctionComponent = () => {
             autoPlay
             muted
             loop
+            controls
           >
             <source
               src={`https://res.cloudinary.com/dituvckin/video/upload/f_auto:video,q_auto/uwhcvpfphmqfzl5lf3we`}
