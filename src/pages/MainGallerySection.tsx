@@ -21,7 +21,7 @@ const MainGallerySection: FunctionComponent = () => {
             muted
             loop
           >
-            <source src="https://res.cloudinary.com/dituvckin/video/upload/f_auto:video,q_auto/LINKEDIN_LEARNING_ANIMATION_PROJECT_yapkcq" />
+            <source src="https://vtslove.sirv.com/LINKEDIN%20LEARNING%20ANIMATION%20PROJECT-1440p.mp4" />
           </video>
           
       <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
