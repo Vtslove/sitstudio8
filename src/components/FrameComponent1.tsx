@@ -23,7 +23,6 @@ const FrameComponent1: FunctionComponent = () => {
             autoPlay
             muted
             loop
-            controls
             playsInline
             
           >
