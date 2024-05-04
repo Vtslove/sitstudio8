@@ -333,7 +333,7 @@
     line-height: 24px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
   .navbar {
     display: none;
   }
@@ -366,12 +366,12 @@
     line-height: 18px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
   .gallerySection {
     display: none;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
   .gallerySection1 {
     display: none;
   }

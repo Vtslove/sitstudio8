@@ -142,20 +142,14 @@ const PopupMega: FunctionComponent<PopupMegaType> = ({ onClose }) => {
         <div className={styles.home1} onClick={onHomeText1Click}>
           Work
         </div>
-        <div className={styles.x1} onClick={onClose}>
-          X
-        </div>
       </div>
       <div className={styles.linkedinParent}>
         <div className={styles.linkedin} onClick={onSocialLinkClick}>LinkedIn</div>
         <div className={styles.behance} onClick={onSocialLink2Click}>Behance</div>
         <div className={styles.viewMore}>VIEW MORE</div>
-        <img
-          className={styles.frameChild}
-          loading="lazy"
-          alt=""
-          src="/arrow-1.svg"
-        />
+        <div className={styles.x1} onClick={onClose}>
+          X
+        </div>
       </div>
     </div>
   );
